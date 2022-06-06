@@ -18,7 +18,7 @@ class call_model(APIView):
             params =  request.GET.get('sentence')
             
             # predict method used to get the prediction
-            response = FastmodelConfig.PRINT()
+            response = FastmodelConfig.PRINT(params)
             
             # returning JSON response
             return response
