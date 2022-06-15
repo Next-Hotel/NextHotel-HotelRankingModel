@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(b8z_uapx4sqej=v4qdn$mgqxc@mo8x6%#i&l3&&395kyz4hs(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://nexthotel-modeldeployment-b7iyywuv5a-as.a.run.app']
+ALLOWED_HOSTS = ['nexthotel-modeldeployment-b7iyywuv5a-as.a.run.app']
 
 
 # Application definition
