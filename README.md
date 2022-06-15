@@ -19,7 +19,7 @@ git clone https://github.com/Next-Hotel/NextHotel-ModelDeployment.git
 2. Move to folder just created
 
 ```
-cd NextHotel-ModelDeployment/
+cd NextHotel-HotelRankingModel/
 ```
 
 3. Install virtual enviroment
