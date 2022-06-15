@@ -112,7 +112,7 @@ class FastmodelConfig(AppConfig):
 
     def preprocessing_output():
 
-        data = pd.read_csv('https://storage.googleapis.com/data-hotel/list-hotel/list-hotels.csv', encoding='unicode_escape')
+        data = pd.read_csv('https://storage.cloud.google.com/data-hotel/list-hotel/list-hotels.csv', encoding='unicode_escape')
 
         return data
 
