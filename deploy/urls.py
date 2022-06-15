@@ -23,5 +23,5 @@ from fastmodel import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Adding a new URL
-    path('model/', views.call_model.as_view())
+    path('', views.call.as_view())
 ]

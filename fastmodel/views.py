@@ -9,16 +9,17 @@ from rest_framework.response import Response
 from rest_framework import status
 from .apps import FastmodelConfig
 
-class call_model(APIView):
+class call(APIView):
 
     def get(self,request):
-        if request.method == 'GET':
+        if True:
             
             # sentence is the query we want to get the prediction for
-            params =  request.GET.get('sentence')
+            #params =  request.GET.get('sentence')
             
             # predict method used to get the prediction
-            response = FastmodelConfig.PRINT(params)
-            
+            response = FastmodelConfig.final_data
+
             # returning JSON response
-            return response
+            # return JsonResponse(response,safe=False)
+            return HttpResponse(response,content_type="text/json-comment-filtered")
